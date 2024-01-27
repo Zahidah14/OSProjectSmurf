@@ -434,14 +434,31 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 ***Questions:***
 
 1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)***
- -
+```bash
+@Zahidah14 ➜ /workspaces/OSProjectSmurf (main) $ ls -l
+total 32
+rw-rw-rw-  1 codespace root 22315 Jan 27 15:17 README.md
+drwxrwxrwx+ 2 codespace root  4096 Jan 27 14:13 images
+drwxr-xr-x+ 2 root      root  4096 Jan 27 15:31 myroot
+```
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
+ -Yes, i can change the permission by using these code.
 ```bash
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+```bash
+@Zahidah14 ➜ /workspaces/OSProjectSmurf (main) $ sudo chown -R codespace:codespace myroot
+```
+the result
+```bash
+@Zahidah14 ➜ /workspaces/OSProjectSmurf (main) $ ls -l
+total 32
+-rw-rw-rw-  1 codespace root      22688 Jan 27 15:37 README.md
+drwxrwxrwx+ 2 codespace root       4096 Jan 27 14:13 images
+drwxr-xr-x+ 2 codespace codespace  4096 Jan 27 15:31 myroot
+```
 
 ## You are on your own, create your own static webpage
 
