@@ -24,8 +24,10 @@ Team Mates:
 
 ***Questions:***
 
-1. What is the link of the fork OSProject in your repository. ***(1 mark)*** __Fill answer here__.
-2. How many files and folders are in this repository. ***(1 mark)*** __Fill answer here__.
+1. What is the link of the fork OSProject in your repository. ***(1 mark)*** 
+ -https://github.com/Zahidah14/OSProjectSmurf.git
+2. How many files and folders are in this repository. ***(1 mark)*** 
+ -2 folders and 8 files
 
 
 ## Exploring github codespaces
@@ -494,7 +496,7 @@ total 4
 2. What port is the apache web server running. ***(1 mark)***
  -Apache web server is running on port 80. 
 3. What port is open for http protocol on the host machine? ***(1 mark)***
- -on the host mechine, the port open for http protocol is 8080.
+ -on the host mechine, the port open for http protocol is 8080
 
 ## What to submit
 
